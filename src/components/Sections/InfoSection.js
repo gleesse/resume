@@ -32,23 +32,15 @@ const InfoSection = ({id}) => {
         );
     };
 //#endregion
-
-    const Cards = () =>{
-        return(
-            <div className="grid gap-4 mt-11 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-y-10 mx-14">
+    
+    return (
+        <InfoContainer id={id} className=" bg-black">
+            <h1 className="font-mono text-5xl font-black text-center text-green-400 pt-4">Skills</h1>
+            <div className="grid gap-4 my-5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-y-10 mx-14">
                 <ParseCard data={CardsData} index={0}/>
                 <ParseCard data={CardsData} index={1}/>
                 <ParseCard data={CardsData} index={2}/>
             </div>
-        );
-    }
-
-    
-
-    return (
-        <InfoContainer id={id} className=" bg-black">
-            <h1 className="font-mono text-5xl font-black text-center text-green-400 pt-7">Skills</h1>
-            <Cards />
         </InfoContainer>
     )
 }

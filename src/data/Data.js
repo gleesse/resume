@@ -14,10 +14,12 @@ export const CardsData = [
                 {name:"Python", logo:PythonLogo},
                 {name:"git", logo:GitLogo},
                 "html,css,js",
+                "jira",
+                "docker",
                 "json,xaml,csv",
                 "ms office",
                 "blender",
-                "unity",
+                "unity"
             ]
         }
     ],
@@ -49,7 +51,8 @@ export const CardsData = [
                 "node.js",
                 "asp.net",
                 "efcore",
-                "WPF"
+                "WPF",
+                "tailwind"
             ]
         },
     ],
