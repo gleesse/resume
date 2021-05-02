@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import {Link, animateScroll as scroll} from 'react-scroll'
+import {animateScroll as scroll} from 'react-scroll'
 import {Nav, NavLink} from './NavElements'
 
 const Navbar = ({toggle}) => {
@@ -12,6 +12,10 @@ const Navbar = ({toggle}) => {
 
     const ScrollToTop = () =>{
         scroll.scrollToTop();
+    }
+
+    const ScrollToBottom = () =>{
+        scroll.scrollToBottom();
     }
 
     const[scrollNav, setScrollNav] = useState(false)
@@ -30,7 +34,7 @@ const Navbar = ({toggle}) => {
 
     return (
         <Nav scrollNav={scrollNav} className="sticky z-10 top-0 flex items-center justify-between w-full h-16 font-mono text-white select-none" role='navigation'>
-            <h1 className='pl-12 text-3xl font-bold text-secondary-100 cursor-pointer' onClick={ScrollToTop}>Glex</h1>
+            <h1 className='pl-12 text-3xl font-bold text-secondary-100 cursor-pointer' onClick={ScrollToTop}>Glexe</h1>
             <div className="px-4 cursor-pointer md:hidden">
                 <MenuImage />
             </div>
@@ -39,7 +43,7 @@ const Navbar = ({toggle}) => {
                 <NavLink to="about" smooth={true} spy={true} duration={800}  offset={-64}>About</NavLink>
                 <NavLink to="skills" smooth={true} spy={true} duration={700} offset={-64}>Skills</NavLink>
                 <NavLink to="projects" smooth={true} spy={true} duration={600} offset={-64}>Projects</NavLink>
-                <NavLink to="contacts" smooth={true} spy={true} duration={500} offset={-64}>Contacts</NavLink>
+                <NavLink onClick={ScrollToBottom}>Contacts</NavLink>
             </div>
         </Nav>
         

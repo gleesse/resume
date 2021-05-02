@@ -24,6 +24,10 @@ export const H1 = styled.h1`
   color: #ffff64;
   }
 
+  .stroke{   
+    animation: deconstructed 4s infinite ease-in;
+  }
+
   h1:nth-child(1){
     -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
     mask-image: linear-gradient(black 25%, transparent 25%);
@@ -32,8 +36,6 @@ export const H1 = styled.h1`
   h1:nth-child(2) {
   -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
     mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
-    
-    animation: deconstructed 4s infinite ease-in;
   }
 
   h1:nth-child(3) {
@@ -48,7 +50,7 @@ export const H1 = styled.h1`
 
   @keyframes deconstructed {
   0% {
-    transform: translateX(200%);
+    transform: translateX(-150%);
     text-shadow: none;
     color: transparent;
   }

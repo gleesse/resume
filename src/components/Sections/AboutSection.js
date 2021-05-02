@@ -18,7 +18,7 @@ const InfoSection = ({id}) => {
             <div className="grid gap-x-5 gap-y-10 grid-cols-1 md:grid-cols-2 my-8">
                 <div className="grid items-center gap-y-14">
                     <H1 className="flex justify-center items-center tracking-tight font-bold lg:text-8xl text-6xl">
-                        <h1>WHO AM I?</h1>
+                        <h1 class="stroke">WHO AM I?</h1>
                         <h1>WHO AM I?</h1>
                         <h1>WHO AM I?</h1>
                         <h1 className="underline">WHO AM I?</h1>

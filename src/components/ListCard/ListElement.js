@@ -11,7 +11,7 @@ const ListElement = ({content, preIcon, postIcon}) => {
                     </div>
                     {preIcon!==undefined && <img src={preIcon} className="h-6 w-6 overflow-hidden bg-transparent"/>}                   
                     <h3 className="text-semibold text-black font-mono text-xl">{content}</h3>
-                    {postIcon!==undefined && <img src={postIcon} className="h-6 w-6 overflow-hidden bg-transparent ml-1"/>}  
+                    {postIcon!==undefined && <img src={postIcon} className="h-6 w-6 overflow-hidden bg-transparent"/>}  
                 </div>
             </li>
         </div>
