@@ -92,7 +92,6 @@ export const Link = styled.a`
 export const Pa = styled.p`
   color: #fff;
   font-weight: 500;
-  font-family: monospace;
   letter-spacing: -0.06em;
   font-size: 1.5rem;
   line-height: 1.5rem;

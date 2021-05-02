@@ -14,10 +14,6 @@ const Navbar = ({toggle}) => {
         scroll.scrollToTop();
     }
 
-    const ScrollToBottom = () =>{
-        scroll.scrollToBottom();
-    }
-
     const[scrollNav, setScrollNav] = useState(false)
 
     const changeNav = () => {
@@ -28,25 +24,25 @@ const Navbar = ({toggle}) => {
         }
     }
 
+
     useEffect(() => {
         window.addEventListener('scroll', changeNav);
     }, []);
 
     return (
-        <Nav scrollNav={scrollNav} className="sticky z-10 top-0 flex items-center justify-between w-full h-16 font-mono text-white select-none" role='navigation'>
+        <Nav scrollNav={scrollNav} className="sticky z-10 top-0 flex items-center justify-between w-full h-16 font-roboto text-xl text-red-50 select-none" role='navigation'>
             <h1 className='pl-12 text-3xl font-bold text-secondary-100 cursor-pointer' onClick={ScrollToTop}>Glexe</h1>
-            <div className="px-4 cursor-pointer md:hidden">
-                <MenuImage />
+            <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
+                <MenuImage/>
             </div>
 
             <div className="hidden pr-10 md:block">
                 <NavLink to="about" smooth={true} spy={true} duration={800}  offset={-64}>About</NavLink>
-                <NavLink to="skills" smooth={true} spy={true} duration={700} offset={-64}>Skills</NavLink>
-                <NavLink to="projects" smooth={true} spy={true} duration={600} offset={-64}>Projects</NavLink>
-                <NavLink onClick={ScrollToBottom}>Contacts</NavLink>
+                <NavLink to="skills" smooth={true} spy={true} duration={800} offset={-64}>Skills</NavLink>
+                <NavLink to="projects" smooth={true} spy={true} duration={800} offset={-64}>Projects</NavLink>
+                <NavLink to="contacts" smooth={true} spy={true} duration={800} offset={-64}>Contacts</NavLink>
             </div>
         </Nav>
-        
     )
 }
 

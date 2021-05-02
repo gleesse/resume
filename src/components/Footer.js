@@ -26,10 +26,10 @@ function CopyEmailAddress(){
     
 }
 
-const Footer = () => {
+const Footer = ({id}) => {
     return (
-        <div className="flex flex-col h-40">
-            <div className="flex items-center p-2 text-xl bg-gray-900 h-36 justify-evenly font-josefin text-red-50">
+        <div id={id} className="flex flex-col h-40">
+            <div className="flex items-center pl-4 text-xl bg-gray-900 h-36 justify-evenly font-josefin text-red-50">
                 <div className="flex flex-col items-center w-48 h-20 space-x-2 space-y-2">
                     <h1>Links:</h1>
                     <div className="inline-flex space-x-2">
@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
             </div>
             
-            <div className="flex justify-center p-2 text-sm bg-gray-900 text-red-50 font-roboto"><p>© {new Date().getFullYear()}</p></div>
+            <div className="h-12 flex justify-center p-2 text-sm bg-gray-900 text-red-50 font-roboto"><p>© {new Date().getFullYear()}</p></div>
         </div>
     )
 }

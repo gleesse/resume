@@ -26,7 +26,7 @@ export const CardsData = [
                 {name:"UML", indicator:RedIndicator},
                 {name:"jira", logo:JiraLogo, indicator:RedIndicator},
                 {name:"docker", logo:DockerLogo, indicator:RedIndicator},
-                {name:"json,yaml,csv", logo:JsonLogo, indicator:OrangeIndicator},
+                {name:"json,yaml", logo:JsonLogo, indicator:OrangeIndicator},
                 {name:"ms office", indicator:RedIndicator},
                 {name:"blender", logo:BlenderLogo, indicator:RedIndicator},
                 {name:"unity", logo:UnityLogo, indicator:OrangeIndicator}
