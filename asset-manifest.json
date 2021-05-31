@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.d437859b.chunk.css",
+    "main.js": "/resume/static/js/main.6e381f82.chunk.js",
+    "main.js.map": "/resume/static/js/main.6e381f82.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.bdc9de65.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.bdc9de65.js.map",
+    "static/js/2.9e703e33.chunk.js": "/resume/static/js/2.9e703e33.chunk.js",
+    "static/js/2.9e703e33.chunk.js.map": "/resume/static/js/2.9e703e33.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "static/css/main.d437859b.chunk.css.map": "/resume/static/css/main.d437859b.chunk.css.map",
+    "static/js/2.9e703e33.chunk.js.LICENSE.txt": "/resume/static/js/2.9e703e33.chunk.js.LICENSE.txt",
+    "static/media/BlenderLogo.d2f5b95b.svg": "/resume/static/media/BlenderLogo.d2f5b95b.svg",
+    "static/media/CsLogo.72d6dcc1.svg": "/resume/static/media/CsLogo.72d6dcc1.svg",
+    "static/media/DockerLogo.9f4e8559.svg": "/resume/static/media/DockerLogo.9f4e8559.svg",
+    "static/media/DoneMark.bd1b556e.svg": "/resume/static/media/DoneMark.bd1b556e.svg",
+    "static/media/EmptyIndicator.55295e35.svg": "/resume/static/media/EmptyIndicator.55295e35.svg",
+    "static/media/GitLogo.8497c3c4.svg": "/resume/static/media/GitLogo.8497c3c4.svg",
+    "static/media/GreenIndicator.6d43288d.svg": "/resume/static/media/GreenIndicator.6d43288d.svg",
+    "static/media/JavaLogo.20e92ef2.svg": "/resume/static/media/JavaLogo.20e92ef2.svg",
+    "static/media/JiraLogo.2062f917.svg": "/resume/static/media/JiraLogo.2062f917.svg",
+    "static/media/JsonLogo.301fd1b4.svg": "/resume/static/media/JsonLogo.301fd1b4.svg",
+    "static/media/OrangeIndicator.50bd87da.svg": "/resume/static/media/OrangeIndicator.50bd87da.svg",
+    "static/media/PythonLogo.e78f188f.svg": "/resume/static/media/PythonLogo.e78f188f.svg",
+    "static/media/RedIndicator.c3107570.svg": "/resume/static/media/RedIndicator.c3107570.svg",
+    "static/media/App.css": "/resume/static/media/SandPattern.7b0aae60.png",
+    "static/media/UnityLogo.f70eaa6b.svg": "/resume/static/media/UnityLogo.f70eaa6b.svg",
+    "static/media/cat.63211b76.jpg": "/resume/static/media/cat.63211b76.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdc9de65.js",
+    "static/js/2.9e703e33.chunk.js",
+    "static/css/main.d437859b.chunk.css",
+    "static/js/main.6e381f82.chunk.js"
+  ]
+}
