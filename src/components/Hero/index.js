@@ -16,7 +16,7 @@ const Hero = () => {
                 Hello, I'm
                 <hr className="mt-2 border-t-4 border-secondary-100 lg:border-t-8 md:border-t-6"></hr>
             </h1>
-            <p className="pb-10 text-red-50 lg:text-9xl md:text-8xl text-7xl font-roboto">Glexe</p>
+            <p className="pb-10 text-red-50 lg:text-9xl md:text-8xl text-7xl font-roboto">Gleb</p>
             <p className="text-3xl md:text-4xl text-red-50 font-josefin">let me introduce myself</p>        
             <Link to="about" smooth={true} spy={true} duration={800} offset={-64} className="mt-16 cursor-pointer animate-bounce">    
                 <ArrowDown/>

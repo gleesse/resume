@@ -43,7 +43,7 @@ const InfoSection = ({id}) => {
                         <h1>WHAT I CAN?</h1>
                         <h1 className="underline">WHAT I CAN?</h1>
             </H1>
-            <div className="grid gap-6 my-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-y-10 mx-14">
+            <div className="grid gap-6 mt-20 mb-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 mx-14">
                 <ParseCard data={CardsData} index={0}/>
                 <ParseCard data={CardsData} index={1}/>
                 <ParseCard data={CardsData} index={2}/>

@@ -11,6 +11,7 @@ import DockerLogo from '../images/logos/DockerLogo.svg'
 import GreenIndicator from '../images/indicators/GreenIndicator.svg'
 import OrangeIndicator from '../images/indicators/OrangeIndicator.svg'
 import RedIndicator from '../images/indicators/RedIndicator.svg'
+import EmptyIndicator from '../images/indicators/EmptyIndicator.svg'
 
 export const CardsData = [
     [
@@ -19,12 +20,13 @@ export const CardsData = [
             content: 
             [
                 {name:"C#", logo:CsLogo, indicator:GreenIndicator},
-                {name:"Java", logo:JavaLogo, indicator:GreenIndicator},
+                {name:"Java", logo:JavaLogo, indicator:OrangeIndicator},
                 {name:"Python", logo:PythonLogo, indicator:RedIndicator},
                 {name:"git", logo:GitLogo, indicator:OrangeIndicator},
-                {name:"html,css,js", indicator:OrangeIndicator},
+                {name:"sql", indicator:OrangeIndicator},
+                {name:"html,css,js", indicator:RedIndicator},
                 {name:"UML", indicator:RedIndicator},
-                {name:"jira", logo:JiraLogo, indicator:RedIndicator},
+                {name:"jira", logo:JiraLogo, indicator:EmptyIndicator},
                 {name:"docker", logo:DockerLogo, indicator:RedIndicator},
                 {name:"json,yaml", logo:JsonLogo, indicator:OrangeIndicator},
                 {name:"ms office", indicator:RedIndicator},
@@ -48,7 +50,10 @@ export const CardsData = [
                 {name:"crqs"},
                 {name:"designer"},
                 {name:"MVC"},
-                {name:"repository"}
+                {name:"repository"},
+                {name:"Singleton"},
+                {name:"Factory method"},
+                {name:"State pattern"},
             ]
         },
     ],
@@ -66,18 +71,6 @@ export const CardsData = [
                 {name:"tailwind"}
             ]
         },
-    ],
-
-    [
-        {
-            title: "Personal",
-            content: 
-            [
-                "Motivation",
-                "Goals",
-                "Love for hard work"
-            ]
-        }
     ],
 ];
 

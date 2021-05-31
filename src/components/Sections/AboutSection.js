@@ -7,7 +7,7 @@ Pa
 } from './SectionElements'
 
 import ListElement from '../ListCard/ListElement'
-import TestImage from '../../images/DoneMark.svg'
+import DoneMark from '../../images/DoneMark.svg'
 import Selfie from '../../images/cat.jpg'
 
 const InfoSection = ({id}) => {
@@ -30,18 +30,20 @@ const InfoSection = ({id}) => {
                         , who 
                     </Pa>
                     <ul className="list-none mx-auto space-y-2">
-                        <ListElement content={<Pa>Located in Warsaw,</Pa>} postIcon={TestImage} />
-                        <ListElement content={<Pa>Climbing hard to his goals,</Pa>} postIcon={TestImage} />
-                        <ListElement content={<Pa>Has passion for learning new things,</Pa>} postIcon={TestImage} />
-                        <ListElement content={<Pa>Speaks both English and Polish,</Pa>} postIcon={TestImage} />
-                        <ListElement content={<Pa>Always trying to find the best solution,</Pa>} postIcon={TestImage} />
-                        <ListElement content={<Pa>Not afraid to take responsibility,</Pa>} postIcon={TestImage} />
-                        <ListElement content={<Pa>Approaches any tasks very responsibly</Pa>} postIcon={TestImage} />
+                        <ListElement content={<Pa>Located in Warsaw,</Pa>} postIcon={DoneMark} />
+                        <ListElement content={<Pa>Climbing hard to his goals,</Pa>} postIcon={DoneMark} />
+                        <ListElement content={<Pa>Has passion for learning new things,</Pa>} postIcon={DoneMark} />
+                        <ListElement content={<Pa>Speaks both English and Polish,</Pa>} postIcon={DoneMark} />
+                        <ListElement content={<Pa>Always trying to find the best solution</Pa>} postIcon={DoneMark} />
+                        <ListElement content={<Pa>and to write flexible and reusable code,</Pa>} postIcon={DoneMark} />
+                        <ListElement content={<Pa>Approaches any tasks very responsibly</Pa>} postIcon={DoneMark} />
                     </ul>
                 </div>
                 
                 <div className="grid justify-center">
-                    <img src={Selfie} class="select-none rounded-full lg:w-auto lg:h-auto w-72 h-72 border-8 border-secondary-200" alt="selfie"/>
+                    {/* <img src={Selfie} class="select-none rounded-full lg:w-auto lg:h-auto w-72 h-72 border-8 border-secondary-200" alt="selfie"/> */}
+                    <img class="select-none rounded-full  w-72 h-72 border-8 border-secondary-200" alt="selfie"></img>
+                    <i class="text-xl text-gray-400">Maybe someday i add here my selfie, but not now...</i>
                 </div>
             </div>
         </InfoContainer>
