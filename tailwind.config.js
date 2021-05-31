@@ -3,12 +3,20 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      animation: {
-        
-      },
       backgroundImage: theme => ({
         'sand-pattern': "url('./images/SandPattern.png')",
-      })
+      }),
+      colors: {
+        primary: '',
+        secondary: {
+          100: '#34D399',
+          200: '#059669'
+        }
+      },
+      fontFamily: {
+        josefin: ['Josefin Sans'],
+        roboto: ['Roboto']
+      }
     },
   },
   variants: {

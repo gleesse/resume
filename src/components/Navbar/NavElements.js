@@ -13,11 +13,16 @@ export const NavLink = styled(Link)`
   transition: 0.3s ease-in-out; 
   cursor: pointer;
 
+  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  text-underline-offset: 0.7em;
+  transition: text-decoration-color 500ms;
+
   &.active {
       color: #34D399;
   }
-
   :hover{
     color: #34D399;
+    text-decoration-color: #34D399;
+    text-underline-offset: 0.25em;
   }
 `;

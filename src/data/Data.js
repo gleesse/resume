@@ -1,7 +1,17 @@
-import CsLogo from '../images/CsLogo.svg'
-import JavaLogo from '../images/JavaLogo.svg'
-import PythonLogo from '../images/PythonLogo.svg'
-import GitLogo from '../images/GitLogo.svg'
+import CsLogo from '../images/logos/CsLogo.svg'
+import JavaLogo from '../images/logos/JavaLogo.svg'
+import PythonLogo from '../images/logos/PythonLogo.svg'
+import GitLogo from '../images/logos/GitLogo.svg'
+import BlenderLogo from '../images/logos/BlenderLogo.svg'
+import UnityLogo from '../images/logos/UnityLogo.svg'
+import JsonLogo from '../images/logos/JsonLogo.svg'
+import JiraLogo from '../images/logos/JiraLogo.svg'
+import DockerLogo from '../images/logos/DockerLogo.svg'
+
+import GreenIndicator from '../images/indicators/GreenIndicator.svg'
+import OrangeIndicator from '../images/indicators/OrangeIndicator.svg'
+import RedIndicator from '../images/indicators/RedIndicator.svg'
+import EmptyIndicator from '../images/indicators/EmptyIndicator.svg'
 
 export const CardsData = [
     [
@@ -9,15 +19,19 @@ export const CardsData = [
             title: "Tech",
             content: 
             [
-                {name:"C#", logo:CsLogo},
-                {name:"Java", logo:JavaLogo},
-                {name:"Python", logo:PythonLogo},
-                {name:"git", logo:GitLogo},
-                "html,css,js",
-                "json,xaml,csv",
-                "ms office",
-                "blender",
-                "unity",
+                {name:"C#", logo:CsLogo, indicator:GreenIndicator},
+                {name:"Java", logo:JavaLogo, indicator:OrangeIndicator},
+                {name:"Python", logo:PythonLogo, indicator:RedIndicator},
+                {name:"git", logo:GitLogo, indicator:OrangeIndicator},
+                {name:"sql", indicator:OrangeIndicator},
+                {name:"html,css,js", indicator:RedIndicator},
+                {name:"UML", indicator:RedIndicator},
+                {name:"jira", logo:JiraLogo, indicator:EmptyIndicator},
+                {name:"docker", logo:DockerLogo, indicator:RedIndicator},
+                {name:"json,yaml", logo:JsonLogo, indicator:OrangeIndicator},
+                {name:"ms office", indicator:RedIndicator},
+                {name:"blender", logo:BlenderLogo, indicator:RedIndicator},
+                {name:"unity", logo:UnityLogo, indicator:OrangeIndicator}
             ]
         }
     ],
@@ -27,15 +41,19 @@ export const CardsData = [
             title: "Patterns",
             content: 
             [
-                "SOLID",
-                "DI",
-                "rest",
-                "DDD",
-                "TBD",
-                "GitFlow",
-                "tailwind",
-                "crqs",
-                "designer"
+                {name:"SOLID"},
+                {name:"DI"},
+                {name:"rest"},
+                {name:"DDD"},
+                {name:"TBD"},
+                {name:"GitFlow"},
+                {name:"crqs"},
+                {name:"designer"},
+                {name:"MVC"},
+                {name:"repository"},
+                {name:"Singleton"},
+                {name:"Factory method"},
+                {name:"State pattern"},
             ]
         },
     ],
@@ -45,25 +63,14 @@ export const CardsData = [
             title: "Frameworks",
             content: 
             [
-                "react.js",
-                "node.js",
-                "asp.net",
-                "efcore",
-                "WPF"
+                {name:"react.js"},
+                {name:"node.js"},
+                {name:"asp.net"},
+                {name:"efcore"},
+                {name:"WPF"},
+                {name:"tailwind"}
             ]
         },
-    ],
-
-    [
-        {
-            title: "Personal",
-            content: 
-            [
-                "Motivation",
-                "Goals",
-                "Love for hard work"
-            ]
-        }
     ],
 ];
 
